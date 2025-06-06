@@ -12,7 +12,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 
-public class Exercises12ExperimentsSimpleApi {
+public class Exercise12ExperimentsSimpleApi {
     public static void main(String[] args) throws IOException, URISyntaxException {
         try {
             URL url = new URI("https://apichallenges.eviltester.com/simpleapi/items").toURL();
